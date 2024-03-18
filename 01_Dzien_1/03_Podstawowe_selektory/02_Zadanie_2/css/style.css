@@ -1,4 +1,4 @@
-#banner {
+.banner {
   background: url(../images/bg.jpg);
   background-size: cover;
   background-position: center;
@@ -13,6 +13,6 @@
   text-align: center;
 }
 
-.banner {
+.banner-title {
   color: #fff;
 }

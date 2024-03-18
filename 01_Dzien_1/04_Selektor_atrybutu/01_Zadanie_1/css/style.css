@@ -33,3 +33,19 @@
 }
 
 /* tutaj nasze style */
+
+img {
+  border: 3px solid red;
+}
+
+img[alt] {
+  border: 3px solid green;
+}
+
+.links a[target="_blank"] {
+  color: red;
+}
+
+.elements div[class*="red"] {
+  border: 3px solid red;
+}

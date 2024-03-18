@@ -22,3 +22,44 @@ body {
 }
 
 /* tutaj nasze style */
+:root {
+  --background-yellow: rgba(255, 255, 0, 0.3);
+}
+/*
+.module > h2 {
+  background-color: var(--background-yellow);
+}
+*/
+/*
+.module > div {
+  background-color: var(--background-yellow);
+}
+*/
+/*
+.module > div > h2{
+  background-color: var(--background-yellow);
+}
+*/
+/*
+.module > h2 + p{
+  background-color: var(--background-yellow);
+}
+ */
+/*
+.module > h2 + p + p + p{
+  background-color: var(--background-yellow);
+}
+ */
+/*
+.module > h2 ~ p {
+  background-color: var(--background-yellow);
+}
+ */
+/*
+.module > h2 + p + p + p + div > h2 {
+  background-color: var(--background-yellow);
+}
+ */
+.module > h2 + p + p + p + div + p + div > h2 + p{
+  background-color: var(--background-yellow);
+}

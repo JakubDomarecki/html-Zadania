@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+}
+
+.banner{
+    height: 100%;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner__text{
+    font-size: 70px;
+    color: white;
+    font-family: Georgia;
+    box-shadow: 0 0 30px rgba(36, 134, 115, 0.7);
+    margin-top: 0px;
+    padding: calc(50vh - 40px);
+}
+.text{
+    background: linear-gradient(#27C6A2, #169678);
+    padding: 100px;
+    color: white;
+    font-family: Georgia;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}

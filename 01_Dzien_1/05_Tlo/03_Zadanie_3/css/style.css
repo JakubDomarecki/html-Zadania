@@ -38,7 +38,12 @@ body {
   padding-top: calc(var(--height) / 2 - var(--font-size));
   text-align: center;
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-
+  background-color: black;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  color: white;
   /*
     Miejsce na Twoje style!
    */

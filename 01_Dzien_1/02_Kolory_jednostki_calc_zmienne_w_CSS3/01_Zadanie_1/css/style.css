@@ -1,0 +1,10 @@
+:root{
+    --background-color: rgba(255, 0, 0, 0.5);
+    --border-color: blue;
+}
+.zadanie1{
+    background-color: var(--background-color);
+    border: 0.5em var(--border-color) solid ;
+    width: 20em;
+    height: 20em;
+}

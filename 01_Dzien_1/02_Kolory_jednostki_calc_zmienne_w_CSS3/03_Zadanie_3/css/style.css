@@ -1,0 +1,26 @@
+:root{
+    --background-color-first: red;
+    --background-color-second: blue;
+    --background-color-third: green;
+}
+body{
+    font-size: 10px;
+}
+.element1{
+    width: 150px;
+    height: 10px;
+    margin: 10px;
+    background-color: var(--background-color-first);
+}
+.element2{
+    width: 15em;
+    height: 1em;
+    margin: 1em;
+    background-color: var(--background-color-second);
+}
+.element3{
+    width: 9.375rem;
+    height: 0.625rem;
+    margin: 0.625rem;
+    background-color: var(--background-color-third);
+}
