@@ -6,8 +6,7 @@ body {
   background-image: url("../images/car-background.jpg");
   height: 600px;
   width: 1000px;
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
 }
 .banner__text{
   position: relative;
@@ -31,7 +30,7 @@ span{
   background-color: #111;
   opacity: 0.5;
   height: 600px;
-  width: 902px;
-  background-size: contain;
+  width: 1000px;
+  background-size: cover;
 }
 
