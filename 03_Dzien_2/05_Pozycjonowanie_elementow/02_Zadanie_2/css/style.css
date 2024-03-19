@@ -39,3 +39,27 @@ body {
   margin-top: 10px;
   margin-bottom: 40px;
 }
+.dot{
+  display: block;
+  background-color: gold;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+}
+.dot--top-left{
+  top: -15px;
+  left: -15px;
+}
+.dot--top-right{
+  top: -15px;
+  right: -15px;
+}
+.dot--bottom-left{
+  bottom: -15px;
+  right: -15px;
+}
+.dot--bottom-right{
+  bottom: -15px;
+  left: -15px;
+}

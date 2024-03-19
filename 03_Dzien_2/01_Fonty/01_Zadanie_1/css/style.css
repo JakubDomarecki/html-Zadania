@@ -1,6 +1,21 @@
 /**
   Deklaracje @font-face tutaj!
  */
+@font-face {
+  font-family: "Myfont";
+  src:
+          local("Myfont"),
+          url("../fonts/lato-regular-webfont.woff2") format("woff2"),
+          url("../fonts/lato-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "DM";
+  src:
+          local("DM"),
+          url("../fonts/dmseriftext-regular-webfont.woff2") format("woff2"),
+          url("../fonts/dmseriftext-regular-webfont.woff") format("woff");
+}
 
 :root {
   --h1: 3rem;
@@ -12,11 +27,13 @@ body {
   max-width: var(--container-width);
   width: calc(100% - 30px);
   margin: 0 auto;
+  font-family: "Myfont", cursive;
 }
 
 h1,
 h2 {
   color: orangered;
+  font-family: "Pacifico", cursive;
 }
 
 h1 {
@@ -38,4 +55,5 @@ article {
   background: #eee;
   padding: 1rem 2rem;
   margin-top: 1rem;
+  font-family: "DM", sans-serif;
 }

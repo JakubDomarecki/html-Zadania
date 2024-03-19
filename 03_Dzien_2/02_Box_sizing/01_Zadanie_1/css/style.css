@@ -29,3 +29,14 @@
   float: left;
   background: #ccc;
 }
+.plan-content-left{
+  padding: 30px;
+  border: 1px solid #dddd;
+}
+.plan-content-right {
+  padding: 30px;
+  border: 1px solid #dddd;
+}
+*{
+  box-sizing: border-box;
+}

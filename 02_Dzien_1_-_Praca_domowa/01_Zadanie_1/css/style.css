@@ -10,3 +10,46 @@
 }
 
 /* twój kod tutaj */
+ul{
+  list-style: none;
+}
+:root {
+  --main-padding: 50px;
+  --line-height: 35px;
+  --main-color: #8bc34a;
+}
+.first-list-container{
+  padding: var(--main-padding);
+}
+li{
+  line-height: calc(var(--line-height));
+  text-align: center;
+}
+.first-list-container{
+  background-color: #e8370e;
+  font-weight: 400;
+}
+.first-list-container ul > li{
+  background-color: #711c08;
+}
+.first-list-container + ul {
+  background-color: #3f51b5;
+}
+div.first-list-container + ul > li {
+  background-color: #00bcd4;
+  font-weight: 700;
+}
+.first-list-container + ul {
+  padding: var(--main-padding);;
+}
+div.first-list-container + ul ul {
+  background-color: var(--main-color);
+  padding: var(--main-padding);
+  font-weight: 400;
+}
+div.first-list-container + ul ul > li {
+  background-color: #009688;
+}
+
+
+

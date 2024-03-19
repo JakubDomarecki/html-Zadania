@@ -44,3 +44,18 @@ body {
 .btn-third {
   background: #3ac569;
 }
+.btn-icon-plus::before{
+  content:"\f055";
+  font-family:"font awesome 5 free";
+  font-size: 1.5em;
+}
+.btn-icon-ban::before{
+  content: "\f05e";
+  font-family:"font awesome 5 free";
+  font-size: 1.5em;
+}
+.btn-icon-play::before{
+  content: "\f04b";
+  font-family:"font awesome 5 free";
+  font-size: 1.5em;
+}

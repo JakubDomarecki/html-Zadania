@@ -1,3 +1,37 @@
 body {
   margin: 0;
+  position: relative;
 }
+.banner{
+  background-image: url("../images/car-background.jpg");
+  height: 600px;
+  width: 1000px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.banner__text{
+  position: relative;
+  font-family: Oswald, serif ;
+  font-weight: 600;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding-top: 250px;
+  text-transform: uppercase;
+}
+span{
+  color: orangered;
+}
+.banner::before{
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background-color: #111;
+  opacity: 0.5;
+  height: 600px;
+  width: 902px;
+  background-size: contain;
+}
+

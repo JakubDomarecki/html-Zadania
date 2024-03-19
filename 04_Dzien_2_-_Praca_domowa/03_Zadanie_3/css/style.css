@@ -8,3 +8,16 @@ body {
   background: url(../images/background.jpg); /* Designed by Freepik */
   background-size: cover;
 }
+.btn{
+  cursor: pointer;
+  padding: 20px 50px;
+  border-radius: 35px;
+  margin: 10px;
+}
+.btn--primary{
+ background-color: tomato;
+  color: white;
+}
+.btn--secondary{
+  color: tomato;
+}

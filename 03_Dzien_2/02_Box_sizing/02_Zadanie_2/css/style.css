@@ -42,6 +42,8 @@ body {
   height: 300px;
   color: #444;
   font-family: Georgia, serif;
+  padding: 40px;
+
 }
 
 .article-title {
@@ -51,4 +53,7 @@ body {
 .article-text {
   color: #999;
   line-height: 1.4;
+}
+*{
+  box-sizing: border-box;
 }

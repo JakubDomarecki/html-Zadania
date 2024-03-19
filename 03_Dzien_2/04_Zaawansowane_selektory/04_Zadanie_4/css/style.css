@@ -43,3 +43,32 @@ Sprobuj odwzorować grafikę nie zmieniajac HTML
 gold - kolor żółty
 black - kolor czarny
 */
+div div:nth-child(1) *:nth-child(9n-8),
+div div:nth-child(1) *:nth-child(7n-5),
+div div:nth-child(2) *:nth-child(9n-8),
+div div:nth-child(6) strong:nth-child(n+2),
+div div:nth-child(6) *:nth-child(5n-2),
+div div:nth-child(9) *:nth-child(9n-8),
+div div:nth-child(10) *:nth-child(9n-8),
+div div:nth-child(10) *:nth-child(7n-5){
+  background-color: white;
+}
+
+div div:nth-child(3) span:nth-last-of-type(n+6),
+div div:nth-child(3) span:nth-of-type(n+6),
+div div:nth-child(4) *:nth-child(7n-5),
+div div:nth-child(4) span:nth-of-type(3n+3),
+div div:nth-child(6) span:first-of-type,
+div div:nth-child(6) span:last-of-type,
+div div:nth-child(7) span,
+div div:nth-child(8) span:nth-of-type(n+2),
+div div:nth-child(9) span:nth-of-type(n+3){
+  background-color: black;
+}
+
+div div:nth-child(6) strong:last-of-type,
+div div:nth-child(8) span:last-of-type,
+div div:nth-child(9) span:last-of-type,
+div div:nth-child(9) span:nth-last-of-type(2) {
+  background-color: gold;
+}
