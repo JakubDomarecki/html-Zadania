@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 /**
  * Path to exercise folder
  */
-const exercisePath = "04_Dzien_2_-_Praca_domowa/02_Zadanie_2";
+const exercisePath = "07_Dzien_4/01_Tworzenie_ukladu_strony_-_ciag_dalszy/01_Car_Sharing";
 
 /**
  * Don't change those lines below

@@ -2,4 +2,41 @@
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery__box {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  color: white;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box_red {
+  background-color: orangered;
+}
+.box_yellow {
+  background-color: gold;
+}
+.box_blueviolet {
+  background-color: blueviolet;
+}
+.box_mediumspringgreen {
+  background-color: mediumspringgreen;
+}
+.box_dodgerblue {
+  background-color: dodgerblue;
+}
+.box_lawngreen {
+  background-color: lawngreen;
+}
+.box_coral {
+  background-color: coral;
+}
+.box_darkgray {
+  background-color: darkgray;
 }

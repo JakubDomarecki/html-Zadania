@@ -1,0 +1,16 @@
+.user-box {
+  display: flex;
+}
+.user-box__avatar {
+  width: 200px;
+  height: 200px;
+}
+.user_box_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.user-box_button {
+  width: 150px;
+  align-self: flex-end;
+}

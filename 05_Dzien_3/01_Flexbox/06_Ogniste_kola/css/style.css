@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.circles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  flex-wrap: wrap;
+}
+.single-circle {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(red, #fbb921);
+  border-radius: 50%;
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+  margin: 10px;
+}

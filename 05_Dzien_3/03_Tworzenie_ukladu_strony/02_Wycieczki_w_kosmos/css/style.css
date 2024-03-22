@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "SSP Light";
+  src:
+    local("SSP Light"),
+    url("../fonts/source-sans-pro.light-webfont.woff2") format("woff2"),
+    url("../fonts/source-sans-pro.light-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "SSP SemiBold";
+  src:
+    local("SSP SemiBold"),
+    url("../fonts/source-sans-pro.semibold-webfont.woff2") format("woff2"),
+    url("../fonts/source-sans-pro.semibold-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "SSP Bold";
+  src:
+    local("SSP Bold"),
+    url("../fonts/source-sans-pro.bold-webfont.woff2") format("woff2"),
+    url("../fonts/source-sans-pro.bold-webfont.woff") format("woff");
+}
+
+body {
+  background: black;
+}
+
+.banner {
+  height: 520px;
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-title {
+  font-size: 60px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.page-content {
+  background: #11203e;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  width: 930px;
+}
+.article {
+  text-align: center;
+  width: 290px;
+  margin: 80px 15px 80px 15px;
+}
+.article-title {
+  margin: 30px auto;
+  color: white;
+  font-family: "SSP SemiBold", sans-serif;
+  font-size: 27px;
+}
+.article-text {
+  color: lightgrey;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+.article-btn {
+  padding: 15px 25px;
+  border: 2px solid white;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 16px;
+}
+.page-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 125px;
+  background: black;
+  color: lightgrey;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+.banner-title,
+.article-btn {
+  font-family: "SSP Bold", sans-serif;
+}
+.article-text,
+.page-footer {
+  font-family: "SSP Light", sans-serif;
+}

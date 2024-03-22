@@ -1,18 +1,23 @@
-.menu{
-    background-color: #F15C5C;
-    font-family: Pacifico, serif;
-    margin:0;
-    padding: 20px;
+.menu {
+  background-color: #f15c5c;
+  font-family: Pacifico, serif;
+  margin: 0;
+  padding: 20px;
 }
-li{
-    padding: 20px;
-    display: inline-block
+li {
+  margin-left: 20px;
+  display: inline-block;
 }
-a:hover{
-    color: #333;
+a:hover {
+  color: #333;
 }
-a{
-    color: white;
-    text-decoration: none;
+a {
+  color: white;
+  text-decoration: none;
 }
-
+* {
+  margin: 0;
+}
+ul {
+  text-align: center;
+}

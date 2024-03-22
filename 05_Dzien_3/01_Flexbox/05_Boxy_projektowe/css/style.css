@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+}
+.container .card_first {
+  flex-direction: column;
+  border: 1px black solid;
+  width: 300px;
+  padding: 10px;
+}
+.card_first img {
+  width: 300px;
+  height: 200px;
+}
+.card_first span {
+  font-size: 32px;
+  display: flex;
+  padding: 20px 0;
+}
+.text {
+  margin-bottom: 20px;
+}
