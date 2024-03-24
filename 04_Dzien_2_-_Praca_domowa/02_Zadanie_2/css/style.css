@@ -7,6 +7,7 @@ body {
   height: 600px;
   width: 1000px;
   background-size: cover;
+  position: relative;
 }
 .banner__text {
   position: relative;
@@ -29,6 +30,6 @@ span {
   top: 0;
   background-color: #111;
   opacity: 0.5;
-  width: 1000px;
-  height: 600px;
+  right: 0;
+  bottom: 0;
 }

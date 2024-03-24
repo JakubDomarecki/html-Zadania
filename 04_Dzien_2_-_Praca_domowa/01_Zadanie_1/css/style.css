@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .menu {
   background-color: #f15c5c;
   font-family: Pacifico, serif;
@@ -5,11 +8,13 @@
   padding: 20px;
 }
 li {
-  margin-left: 20px;
   display: inline-block;
+  margin-left: 100px;
 }
 a:hover {
   color: #333;
+  background-color: grey;
+  padding: 20px;
 }
 a {
   color: white;

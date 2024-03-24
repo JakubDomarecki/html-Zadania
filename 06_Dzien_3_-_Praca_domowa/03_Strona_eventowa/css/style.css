@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -34,6 +33,7 @@ header h1 {
 section {
   width: 100%;
   background-color: #ffffff;
+  text-align: center;
 }
 
 section p {

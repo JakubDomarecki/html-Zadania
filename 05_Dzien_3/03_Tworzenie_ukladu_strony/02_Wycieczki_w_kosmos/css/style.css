@@ -42,16 +42,16 @@ body {
   text-transform: uppercase;
   color: white;
 }
-
 .page-content {
   background: #11203e;
-  display: flex;
-  justify-content: center;
 }
 .container {
+  width: 930px;
+  margin: 0 auto;
+}
+.page-content .container {
   display: flex;
   justify-content: center;
-  width: 930px;
 }
 .article {
   text-align: center;
