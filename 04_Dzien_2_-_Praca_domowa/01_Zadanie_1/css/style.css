@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 .menu {
@@ -13,12 +13,11 @@ li {
 }
 a:hover {
   color: #333;
-  background-color: grey;
-  padding: 20px;
 }
 a {
   color: white;
   text-decoration: none;
+  padding: 20px;
 }
 * {
   margin: 0;

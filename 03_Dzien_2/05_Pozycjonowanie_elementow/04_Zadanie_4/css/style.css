@@ -1,27 +1,24 @@
-.project{
-    position: relative;
+.project {
+  position: relative;
 }
 
-span{
-    border: 1px white solid;
-    border-radius: 20px;
-    padding: 5px;
-    color: white;
+span {
+  border: 1px white solid;
+  border-radius: 20px;
+  padding: 5px;
+  color: white;
 }
-h2{
-    color: white;
+h2 {
+  color: white;
 }
-.project-over{
-    box-sizing: border-box;
-    width: 500px;
-    height: 335px;
-    background-color: rgba(0, 128, 255, 0.5);
-    position: absolute;
-    left: 0;
-    top: 0;
-    text-align: center;
-    padding-top: 100px;
+.project-over {
+  box-sizing: border-box;
+  width: 500px;
+  height: 335px;
+  background-color: rgba(0, 128, 255, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  padding-top: 100px;
 }
-
-
-
